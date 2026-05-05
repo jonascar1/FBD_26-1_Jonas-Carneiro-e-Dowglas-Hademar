@@ -1,4 +1,4 @@
-# Database Requirements:
+ # Database Requirements:
 
 ## 2.1 Business rules:
 
@@ -28,7 +28,5 @@
 21. The system must manage which apartments belong to each condominium.
 22. The system must show which apartments have no residents.
 
-```markdown
   Back to: [Domain description](domain_description.md)  
   Next: [Conceptual data dictionary](conceptual_data_dictionary.md)
-```
