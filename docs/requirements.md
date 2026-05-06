@@ -19,7 +19,7 @@ NFR01. A condominium must have at least 8 apartments and at most 20.
 NFR02. Each apartment belongs to exactly one condominium.
 NFR03. An apartment can have zero or more residents.
 NFR04. A resident can be either an owner or a tenant.
-NFR05. Each apartment can have zero or only one owner.
+NFR05. Each apartment must have a primary occupant.
 NFR06. An resident may have zero or more dependents.
 NFR07. An employee works in only one condominium.
 NFR08. Condominium fees include additional charges if the due date is exceeded.
