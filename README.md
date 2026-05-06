@@ -7,15 +7,15 @@ The goal is to design and implement a relational database for a condominium mana
 ## Recommended reading order
 
 1. **Domain description**  
-   `docs/domain_description.md`
+   [docs/domain_description.md](docs/domain_description.md)
 
 2. **Database requirements**  
-   `docs/requirements.md`
+   [docs/requirements.md](docs/requirements.md)
 
 3. **Conceptual data dictionary**  
-   `docs/conceptual_data_dictionary.md`
+   [docs/conceptual_data_dictionary.md](docs/conceptual_data_dictionary.md)
 
 4. **ER diagram**  
-   `media/er_diagram.png`
+   [media/er_diagram.png](media/er_diagram.png)
 
 More updates soon.
