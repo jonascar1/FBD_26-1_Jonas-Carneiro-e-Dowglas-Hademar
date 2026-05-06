@@ -6,7 +6,7 @@ In the Person entity, data about people in the system are stored, and they may b
 
 | Attributes  | Description                           | Semantic Type | Required | Notes |
 |------------|---------------------------------------|--------------|----------|------|
-| id  | Person identifier                     | Simple       | Yes      | Candidate key |
+| id         | Person identifier                     | Simple       | Yes      | Candidate key |
 | name       | Person's name                         | Simple       | Yes      | — |
 | cpf        | Person's CPF                          | Simple       | Yes      | Candidate key |
 | phone      | Set of person's phone numbers         | Multivalued  | Yes      | —    |
@@ -15,7 +15,7 @@ In the Person entity, data about people in the system are stored, and they may b
 
 ## RESIDENT
 
-In the Resident entity, its specific attributes are stored, in addition to the attributes inherited from the Person entity, due to the specialization process. The resident may be associated with an apartment and may have dependents.
+In the Resident entity, its specific attributes are stored, in addition to the attributes inherited from the Person entity, due to the specialization process. The resident may be associated with apartments and may have dependents.
 
 | Attributes         | Description                                              | Semantic Type | Required | Notes |
 |-------------------|----------------------------------------------------------|--------------|----------|------|
@@ -48,7 +48,7 @@ In the Dependent entity, its specific attributes are stored. It is a weak entity
 
 ## APARTMENT
 
-In the Apartment entity, information about the residential units of the condominium are stored, including their identification, number and condominium fee value, as well as the association with the condominium to which it belongs.
+In the Apartment entity, information about the residential units of the condominium are stored, including their number and condominium fee value, as well as the association with the condominium to which it belongs. Also being a weak entity, it depends on a condominium to exist.
 
 | Attributes        | Description                                      | Semantic Type | Required | Notes |
 |------------------|--------------------------------------------------|--------------|----------|------|
