@@ -6,9 +6,9 @@ In the Person entity, data about people in the system are stored, and they may b
 
 | Attributes  | Description                           | Semantic Type | Required | Notes |
 |------------|---------------------------------------|--------------|----------|------|
-| person_id  | Person identifier                     | Simple       | Yes      | PK   |
-| name       | Person's name                         | Simple       | Yes      | —    |
-| cpf        | Person's CPF                          | Simple       | Yes      | —    |
+| id  | Person identifier                     | Simple       | Yes      | Candidate key |
+| name       | Person's name                         | Simple       | Yes      | — |
+| cpf        | Person's CPF                          | Simple       | Yes      | Candidate key |
 | phone      | Set of person's phone numbers         | Multivalued  | Yes      | —    |
 
 ---
@@ -20,7 +20,7 @@ In the Resident entity, its specific attributes are stored, in addition to the a
 | Attributes         | Description                                              | Semantic Type | Required | Notes |
 |-------------------|----------------------------------------------------------|--------------|----------|------|
 | type              | Classifies the resident as owner or tenant               | Simple       | Yes      | —    |
-| primary_occupant  | Indicates whether the resident is the main responsible for the apartment | Simple | Yes | Values: true or false |
+| primary_occupant  | Indicates whether the resident is the main responsible for the apartment | Simple | Yes | — |
 
 ---
 
@@ -30,7 +30,6 @@ In the Employee entity, its specific attributes are stored, in addition to the a
 
 | Attributes | Description                                | Semantic Type | Required | Notes |
 |-----------|--------------------------------------------|--------------|----------|------|
-| workplace   | Indicates the condominium where the employee works  | Simple | Yes | FK |
 | salary    | Monthly salary value                        | Simple       | Yes      | —    |
 | role      | Describes the function performed by the employee | Simple | Yes | — |
 
@@ -42,25 +41,8 @@ In the Dependent entity, its specific attributes are stored. It is a weak entity
 
 | Attributes   | Description                                                | Semantic Type | Required | Notes |
 |-------------|------------------------------------------------------------|--------------|----------|------|
-| name         | Dependent's name                                           | Simple       | Yes      | Partial key (used together with resident id) |
+| name         | Dependent's name                                           | Simple       | Yes      | Partial key |
 | relationship | Degree of relationship of the dependent in relation to the resident | Simple | Yes | — |
-
----
-
-## PAYMENT
-
-In the Payment entity, information related to payments made by residents are stored, including values, dates, status, and possible late fees.
-
-| Attributes        | Description                                              | Semantic Type | Required | Notes |
-|------------------|----------------------------------------------------------|--------------|----------|------|
-| payment_id       | Unique payment identifier                                | Simple       | Yes      | PK   |
-| value            | Amount to be charged                                     | Simple       | Yes      | —    |
-| due_date         | Deadline date to make the payment                        | Simple       | Yes      | —    |
-| payment_date     | Date when the payment was made                           | Simple       | No       | —    |
-| reference_date   | Period to which the payment refers                       | Simple       | Yes      | —    |
-| status           | Payment status (paid, pending or overdue)                | Simple       | Yes      | —    |
-| resident_id      | Foreign key that identifies the responsible resident     | Simple       | Yes      | FK   |
-| late_fee         | Additional value charged in case of delay                | Simple       | Yes       | —    |
 
 ---
 
@@ -70,10 +52,8 @@ In the Apartment entity, information about the residential units of the condomin
 
 | Attributes        | Description                                      | Semantic Type | Required | Notes |
 |------------------|--------------------------------------------------|--------------|----------|------|
-| apartment_id     | Unique apartment identifier                      | Simple       | Yes      | PK   |
-| number           | Apartment identifying number within the condominium | Simple    | Yes      | —    |
+| number           | Apartment identifying number within the condominium | Simple    | Yes      | Partial key |
 | condo_fee        | Condominium fee value charged to the apartment   | Simple       | Yes      | —    |
-| condominium_id   | Foreign key that identifies the condominium to which the apartment belongs | Simple | Yes | FK |
 
 ---
 
@@ -83,12 +63,11 @@ In the Condominium entity, general information about the condominium are stored,
 
 | Attributes        | Description                                      | Semantic Type | Required | Notes |
 |------------------|--------------------------------------------------|--------------|----------|------|
-| condominium_id   | Unique condominium identifier                    | Simple       | Yes      | PK   |
-| name             | Condominium name                                 | Simple       | Yes      | —    |
-| cnpj             | Condominium CNPJ                                 | Simple       | Yes      | —    |
-| address          | Set of information that represents the location of the condominium | Composite | Yes | Will be divided into subattributes (Number, NeighborHood, CEP, Complement) |
+| id       | Unique condominium identifier                    | Simple       | Yes      | Candidate key |
+| name     | Condominium name                                 | Simple       | Yes      | — |
+| cnpj     | Condominium CNPJ                                 | Simple       | Yes      | Candidate key |
+| address  | Set of information that represents the location of the condominium | Composite | Yes | Will be divided into subattributes (Number, NeighborHood, CEP, Complement) |
 
-```markdown
-  See also: [ER diagram](../media/er_diagram.png)  
-  Next: [Relational mapping](relational_mapping.md)
-  ```
+
+See also: [ER diagram](../media/er_diagram.png)  
+Next: [Relational mapping](relational_mapping.md)
