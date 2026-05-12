@@ -17,5 +17,3 @@ The goal is to design and implement a relational database for a condominium mana
 
 4. **ER diagram**  
    [media/er_diagram.png](media/er_diagram.png)
-
-More updates soon.
