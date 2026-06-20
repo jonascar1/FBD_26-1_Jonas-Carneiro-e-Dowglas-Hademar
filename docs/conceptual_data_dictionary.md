@@ -69,5 +69,5 @@ In the Condominium entity, general information about the condominium are stored,
 | address  | Set of information that represents the location of the condominium | Composite | Yes | Will be divided into subattributes (Number, NeighborHood, CEP, Complement) |
 
 
-See also: [ER diagram](../media/er_diagram.png)  
-Next: [Relational mapping](relational_mapping.md)
+Next: [ER diagram](../media/er_diagram.png)  
+See also: [Relational mapping](relational_mapping.md)
