@@ -1,7 +1,7 @@
 ## PERSON
 
 ```
-PERSON(ID, **CPF**, Name, Role, Salary, Type, Primary_occupant, person_type)
+PERSON(**ID**, CPF, Name, Role, Salary, Type, Primary_occupant, person_type)
 ```
 
 ## Generalization/Specialization (Person → Occupant Types)
@@ -43,7 +43,7 @@ APARTMENT(**Number, condominium_ID**, condo_fee)
 ## LIVES_PERSON_CONDOMINIUM_APARTMENT
 
 ```
-LIVES_PERSON_CONDOMINIUM_APARTMENT(**fk_number,fk_Person_ID, fk_Condominium_ID**, Amount, Status, Reference_date, Payment_date, Due_date, Late_fee)
+LIVES_PERSON_CONDOMINIUM_APARTMENT(**fk_number,fk_Person_ID, fk_Condominium_ID**, Amount, Payment_status, Reference_date, Payment_date, Due_date, Late_fee)
 ```
 
 ## Many-to-Many Relationship (Person × Condominium × Apartment)
