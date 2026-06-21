@@ -15,7 +15,7 @@
 
 ## 2.2 Non-Functional Requirements:
 
-- NFR01. A condominium must have at least 8 apartments and at most 20.
+- NFR01. A condominium must have at most 20.
 - NFR02. Each apartment belongs to exactly one condominium.
 - NFR03. An apartment can have zero or more residents.
 - NFR04. A resident can be either an owner or a tenant.
