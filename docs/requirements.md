@@ -25,6 +25,7 @@
 - NFR08. Condominium fees include additional charges if the due date is exceeded.
 - NFR09. Each resident must pay monthly condominium fees relative to its apartment.
 - NFR10. Each condominium must have a registered address.
+---
 
-Back to: [Domain description](domain_description.md)  
-Next: [Conceptual data dictionary](conceptual_data_dictionary.md)
+**Back to:** [Domain description](domain_description.md)  
+**Next:** [Conceptual data dictionary](conceptual_data_dictionary.md)

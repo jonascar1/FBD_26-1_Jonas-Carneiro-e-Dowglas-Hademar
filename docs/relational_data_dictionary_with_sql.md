@@ -6,7 +6,7 @@
 | CPF | VARCHAR(11) | - | NOT NULL, UNIQUE | Rule 1 | - |
 | name | VARCHAR(100) | - | NOT NULL | Rule 1 | - |
 | role | VARCHAR(50) | NULL | - | Rule 1 | - |
-| salary | DECIMAL(15,2) | 1621.00 | - | Rule 1 | - |
+| salary | DECIMAL(15,2) | 0.00 | - | Rule 1 | - |
 | type | VARCHAR(50) | NULL | - | Rule 1 | - |
 | primary_occupant | BOOLEAN | FALSE | - | Rule 1 | - |
 | person_type | VARCHAR(30) | - | NOT NULL | Rule 1 | - |
@@ -155,3 +155,5 @@ PRIMARY KEY (FK_NUMBER,FK_PERSON_ID,FK_CONDOMINIUM_ID)
 
 ```
 ---
+**Next:** [Create Tables](../database/create_tables.sql)  
+**Previous** [Relational Mapping](relational_mapping.md)
