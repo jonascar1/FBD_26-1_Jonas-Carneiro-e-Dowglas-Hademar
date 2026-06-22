@@ -6,7 +6,7 @@
 | CPF | VARCHAR(11) | - | NOT NULL, UNIQUE | Rule 1 | - |
 | name | VARCHAR(100) | - | NOT NULL | Rule 1 | - |
 | role | VARCHAR(50) | NULL | - | Rule 1 | - |
-| salary | DECIMAL(15,2) | 1621.00 | - | Rule 1 | - |
+| salary | DECIMAL(15,2) | 0.00 | - | Rule 1 | - |
 | type | VARCHAR(50) | NULL | - | Rule 1 | - |
 | primary_occupant | BOOLEAN | FALSE | - | Rule 1 | - |
 | person_type | VARCHAR(30) | - | NOT NULL | Rule 1 | - |
