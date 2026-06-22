@@ -68,6 +68,6 @@ In the Condominium entity, general information about the condominium are stored,
 | cnpj     | Condominium CNPJ                                 | Simple       | Yes      | Candidate key |
 | address  | Set of information that represents the location of the condominium | Composite | Yes | Will be divided into subattributes (Number, NeighborHood, CEP, Complement) |
 
+**Previous:** [Requirements](requirements.md)   
+**Next:** [ER diagram](../media/er_diagram.png)  
 
-Next: [ER diagram](../media/er_diagram.png)  
-See also: [Relational mapping](relational_mapping.md)

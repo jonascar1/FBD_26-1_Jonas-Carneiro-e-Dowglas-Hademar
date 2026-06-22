@@ -52,3 +52,7 @@ The relationship between people and apartments was mapped using the associative 
 
 ```text
 obs: ** atribute ** = PK
+```
+
+**Next:** [Relational Data Dictionary With SQL](relational_data_dictionary_with_sql.md)  
+**Previous:** [Conceptual Data Dictionary](conceptual_data_dictionary.md)
