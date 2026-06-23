@@ -1,45 +1,31 @@
 # Condominium Management Database
 
-This repository contains the practical database project developed for the **Fundamentals of Databases** course.
+This repository contains the implementation phase of a condominium management database developed for the **Fundamentals of Databases** course.
 
-The project consists of the analysis, modeling, and implementation of a relational database for a condominium management system. The development process covers domain understanding, requirements specification, conceptual modeling, relational mapping, SQL implementation, and query creation.
+The project focuses on the transformation of the conceptual model into a relational model, including relational mapping, data dictionary definition, SQL schema creation, sample data insertion, and query development.
 
 ## Project Structure
 
-For a better understanding of the project, follow the documents in the order below:
+The documents and scripts available in this repository are organized as follows:
 
-1. **Domain Description**  
-   [Domain Description](docs/domain_description.md)
-
-2. **Requirements Specification**  
-   [Requirements](docs/requirements.md)
-
-3. **Conceptual Data Dictionary**  
-   [Conceptual Data Dictionary](docs/conceptual_data_dictionary.md)
-
-4. **Entity-Relationship Diagram (ERD)**  
-   [ER Diagram](media/er_diagram.png)
-
-5. **Relational Mapping**  
+1. **Relational Mapping**  
    [Relational Mapping](docs/relational_mapping.md)
 
-6. **Relational Data Dictionary and SQL Definition**  
+2. **Relational Data Dictionary and SQL Definition**  
    [Relational Data Dictionary With SQL](docs/relational_data_dictionary_with_sql.md)
 
-7. **Database Schema Creation**  
+3. **Database Schema Creation**  
    [Create Tables](database/create_tables.sql)
 
-8. **Sample Data Insertion**  
+4. **Sample Data Insertion**  
    [Insert Sample Data](database/insert_sample_data.sql)
 
-9. **SQL Query Examples**  
+5. **SQL Query Examples**  
    [Queries Examples](database/queries_examples.sql)
 
 ## Technologies and Tools
 
-![SQL](https://img.shields.io/badge/SQL-Implemented-blue)   
-![BrModelo](https://img.shields.io/badge/BrModelo-ER%20Modeling-green)
-
+![SQL](https://img.shields.io/badge/SQL-Implemented-blue)
 
 ## How to Run the Database
 
@@ -53,10 +39,10 @@ For a better understanding of the project, follow the documents in the order bel
 
    [Insert Sample Data](database/insert_sample_data.sql)
 
-4. Run the example queries to validate the database structure and explore the stored data:
+4. Execute the example queries:
 
    [Queries Examples](database/queries_examples.sql)
 
 ## Academic Context
 
-This project was developed as part of the **Fundamentals of Databases** course and demonstrates the complete database development process, from requirements analysis and conceptual modeling to SQL implementation.
+This project was developed for the **Fundamentals of Databases** course and demonstrates the implementation stage of a relational database, including relational mapping, SQL schema definition, data population, and query development.
