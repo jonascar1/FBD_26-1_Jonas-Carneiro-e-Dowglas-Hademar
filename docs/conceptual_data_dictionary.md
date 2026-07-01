@@ -175,5 +175,6 @@ The following fields carry uniqueness constraints beyond their candidate keys, a
 | Condominium | cnpj | UNIQUE | No two condominiums may share the same CNPJ. |
 | Apartment | number | UNIQUE per Condominium | The apartment number must be unique within each condominium (candidate key of weak entity). |
 | Dependent | name + birth_date | UNIQUE per Resident | The combination of name and birth date must be unique within each resident's dependents. |
-
-
+---
+Next: [Relational Mapping](https://github.com/jonascar1/FBD_26-1_Jonas-Carneiro-e-Dowglas-Hademar/blob/task/2vasubmission/docs/relational_mapping.md)
+See Also: [ER Diagram](https://github.com/jonascar1/FBD_26-1_Jonas-Carneiro-e-Dowglas-Hademar/blob/task/2vasubmission/media/er_diagram.png)
