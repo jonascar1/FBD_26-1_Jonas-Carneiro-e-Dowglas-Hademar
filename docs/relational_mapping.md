@@ -162,3 +162,7 @@ CHARGES(**resident_id, apt_number, apt_condominium_id, condominium_fee_id**)
 ---
 
 > **Legend:** `**attribute**` = Primary Key (PK) — `FK` = Foreign Key — `UNIQUE` = Uniqueness constraint
+
+---
+Previous: [Conceptual Data Dictionary](https://github.com/jonascar1/FBD_26-1_Jonas-Carneiro-e-Dowglas-Hademar/blob/task/2vasubmission/docs/conceptual_data_dictionary.md)                  
+Next: [Relational Data Dictionary With SQL](https://github.com/jonascar1/FBD_26-1_Jonas-Carneiro-e-Dowglas-Hademar/blob/task/2vasubmission/docs/relational_data_dictionary_with_sql.md)
