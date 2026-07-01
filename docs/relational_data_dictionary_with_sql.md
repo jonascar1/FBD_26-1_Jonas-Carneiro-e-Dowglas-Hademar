@@ -335,3 +335,6 @@ CREATE TABLE CHARGES (
 ---
 
 > **Legend:** `PK` = Primary Key — `FK` = Foreign Key — `UNIQUE` = Uniqueness constraint
+---
+Previous: [Relational Mapping](https://github.com/jonascar1/FBD_26-1_Jonas-Carneiro-e-Dowglas-Hademar/blob/task/2vasubmission/docs/relational_mapping.md)        
+Next: [Create Tables](https://github.com/jonascar1/FBD_26-1_Jonas-Carneiro-e-Dowglas-Hademar/blob/task/2vasubmission/database/create_tables.sql)
