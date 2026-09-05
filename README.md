@@ -32,4 +32,4 @@ For a better understanding of the project, follow the documents in the order bel
 This project was developed as part of the **Fundamentals of Databases** course and demonstrates the complete database development process, from conceptual modeling to SQL implementation.
 ## Presentation Video
 The presentation video for this project is available at:
-[Presentation Video](https://drive.google.com/drive/folders/1agBB_8ul4Mpkitv2FIU44WNrIrY4q4t_?usp=sharing)
+[Presentation Video]
